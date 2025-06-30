@@ -1,8 +1,12 @@
 import React from 'react'
 
-const Sidebar = () => {
+const Sidebar = ({selectedUser,setselectedUser}) => {
   return (
-    <div>Sidebar</div>
+    <div>
+      <div className='pb-5'>
+         <div className='flex justify-between items-center'></div>
+      </div>
+    </div>
   )
 }
 
